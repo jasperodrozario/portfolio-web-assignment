@@ -5,7 +5,7 @@ interface CardProp {
 }
 const Card = ({ projectName, projectDescription, imgSrc }: CardProp) => {
   return (
-    <div className="w-100 border-4 border-[#ff3f85] rounded-xl overflow-hidden transition-all duration-200 bg-blue/20 backdrop-blur-sm shadow-lg hover:scale-105">
+    <div className="max-w-100 my-6 border-4 border-[#ff3f85] rounded-xl overflow-hidden transition-all duration-200 bg-blue/20 backdrop-blur-sm shadow-lg hover:scale-105">
       <img
         src={imgSrc}
         alt="image not found"

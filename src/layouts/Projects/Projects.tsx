@@ -9,8 +9,8 @@ const Projects = () => {
   return (
     <section className="flex flex-col items-center justify-center my-[2rem]">
       <h2 className="font-semibold text-3xl">My Projects</h2>
-      <div className="w-25 m-4 h-[0.3rem] bg-[#ff3f85] rounded-full"></div>
-      <div className="lg:grid grid-cols-3 gap-10 my-[2rem]">
+      <div className="w-25 my-4 h-[0.3rem] bg-[#ff3f85] rounded-full"></div>
+      <div className="lg:grid grid-cols-3 gap-10">
         {/* project1 */}
         <Card
           projectName="Project 1"
