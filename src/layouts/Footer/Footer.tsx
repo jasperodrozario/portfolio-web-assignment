@@ -13,11 +13,24 @@ const Footer = () => {
       <p className="mb-[1rem]">john.doe@gmail.com</p>
       <p className="">47 W 13th St, New York, NY 10011, USA</p>
       <div className="flex gap-4 mt-[3rem]">
-        <img src={git_logo} className="w-8 h-8" />
-        <img src={linkedin_logo} className="w-8 h-8" />
-        <img src={facebook_logo} className="w-8 h-8" />
-        <img src={instagram_logo} className="w-8 h-8" />
-        <img src={x_logo} className="w-8 h-8" />
+        <a
+          href="https://github.com/jasperodrozario/portfolio-web-assignment"
+          target="_blank"
+        >
+          <img src={git_logo} className="w-8 h-8" />
+        </a>
+        <a href="#">
+          <img src={linkedin_logo} className="w-8 h-8" />
+        </a>
+        <a href="#">
+          <img src={facebook_logo} className="w-8 h-8" />
+        </a>
+        <a href="#">
+          <img src={instagram_logo} className="w-8 h-8" />
+        </a>
+        <a href="#">
+          <img src={x_logo} className="w-8 h-8" />
+        </a>
       </div>
     </footer>
   );
